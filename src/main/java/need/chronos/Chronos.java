@@ -37,7 +37,7 @@ public class Chronos extends JavaPlugin
 	        @Override
 	        public void onPlayerMove(PlayerMoveEvent event) 
 	        {
-	        	event.getPlayer().sendMessage(isaChronosPlayer(event.getPlayer())+"");
+	        	event.getPlayer().sendMessage(isAChronosPlayer(event.getPlayer())+"");
 	        	event.getPlayer().sendMessage(chronosplayers.toString());
 	        	updateAll();
 	        }
